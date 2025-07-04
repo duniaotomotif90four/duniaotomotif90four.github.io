@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dunia Otomotif</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #002b5b;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+      border-bottom: 5px solid #ffcc00;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+    header p {
+      margin: 5px 0 0;
+      font-size: 16px;
+    }
+    .container {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      margin-top: 20px;
+    }
+    .card h2 {
+      color: #002b5b;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .social {
+      margin-top: 20px;
+      text-align: center;
+    }
+    .social a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: white;
+      background: #002b5b;
+      padding: 10px 15px;
+      border-radius: 8px;
+      display: inline-block;
+    }
+    .social a:hover {
+      background-color: #0056a3;
+    }
+    footer {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 14px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Bengkel Mobil Dunia Otomotif</h1>
+    <p>Jl. Maulana Hasanudin, Cilangkap, Kec. Kalanganyar, Lebak, Banten</p>
+    <p>Telp/WA: 08983631131</p>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <h2>Layanan Unggulan</h2>
+      <ul>
+        <li>Tune Up & Ganti Oli</li>
+        <li>Isi Nitrogen</li>
+        <li>Spooring & Balancing</li>
+        <li>Kalibrasi Injeksi</li>
+        <li>Revisi Transmisi & Overhaul</li>
+        <li>Kelistrikan & Kaki-kaki</li>
+        <li>Diagnostik dengan Scanner</li>
+      </ul>
+    </div>
+
+    <div class="social">
+      <h3>Ikuti Kami di Sosial Media</h3>
+      <a href="https://www.instagram.com/duniaotomotif90four" target="_blank">Instagram</a>
+      <a href="https://www.facebook.com/duniaotomotif90four" target="_blank">Facebook</a>
+      <a href="https://www.tiktok.com/@duniaotomotif90four" target="_blank">TikTok</a>
+      <a href="https://www.youtube.com/@duniaotomotif90four" target="_blank">YouTube</a>
+    </div>
+
+    <footer>
+      &copy; 2025 Dunia Otomotif. All rights reserved.
+    </footer>
+  </div>
+
+</body>
+</html>
